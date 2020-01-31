@@ -1,7 +1,7 @@
 from __future__ import division
-from PyQt4.QtGui import QCheckBox, QWidget, QFormLayout, QComboBox, QLabel
-from PyQt4.QtGui import QPushButton, QHBoxLayout, QVBoxLayout, QTreeWidget, QTreeWidgetItem
-from PyQt4.QtCore import Qt, QObject, pyqtSignal
+from PyQt5.QtWidgets import QCheckBox, QWidget, QFormLayout, QComboBox, QLabel
+from PyQt5.QtWidgets import QPushButton, QHBoxLayout, QVBoxLayout, QTreeWidget, QTreeWidgetItem
+from PyQt5.QtCore import Qt, QObject, pyqtSignal
 
 from segyviewlib import SliceDirection, SampleScaleController, IndexController, PlotExportSettingsWidget
 

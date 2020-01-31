@@ -1,4 +1,4 @@
-from PyQt4.QtGui import QFileDialog, QToolButton, QToolBar, QVBoxLayout, QWidget, QWidgetAction
+from PyQt5.QtWidgets import QFileDialog, QToolButton, QToolBar, QVBoxLayout, QWidget, QWidgetAction
 
 from segyviewlib import ColormapCombo, LayoutCombo, SettingsWindow, SliceViewContext, HelpWindow
 from segyviewlib import SliceDataSource, SliceModel, SliceDirection as SD, SliceViewWidget, resource_icon

@@ -1,5 +1,5 @@
 from PyQt5.QtCore import Qt, pyqtSignal, QVariant
-from PyQt4.QtGui import QIcon
+from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QComboBox
 
 from segyviewlib import resource_icon
