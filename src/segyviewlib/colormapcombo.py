@@ -1,7 +1,8 @@
-from PyQt4.QtCore import QSize
-from PyQt4.QtGui import QComboBox, QPixmap, qRgb
-from PyQt4.QtCore import Qt
-from PyQt4.QtGui import QImage
+from PyQt5.QtCore import QSize
+from PyQt5.QtGui import QPixmap, qRgb
+from PyQt5.QtWidgets import QComboBox
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QImage
 
 import numpy as np
 from matplotlib.cm import ScalarMappable

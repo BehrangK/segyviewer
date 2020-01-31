@@ -1,6 +1,6 @@
 from __future__ import division
-from PyQt4.QtGui import QCheckBox, QWidget, QComboBox, QDoubleSpinBox, QLabel
-from PyQt4.QtGui import QHBoxLayout
+from PyQt5.QtWidgets import QCheckBox, QWidget, QComboBox, QDoubleSpinBox, QLabel
+from PyQt5.QtWidgets import QHBoxLayout
 
 
 class PlotExportSettingsWidget(QWidget):

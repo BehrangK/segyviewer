@@ -1,5 +1,5 @@
-from PyQt4.QtGui import QSpinBox, QValidator
-
+from PyQt5.QtGui import  QValidator
+from PyQt5.QtWidgets import QSpinBox
 
 class ArraySpinBox(QSpinBox):
     def __init__(self, values, parent=None):

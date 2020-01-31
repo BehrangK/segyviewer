@@ -1,5 +1,5 @@
-from PyQt4 import QtGui
-from PyQt4.QtCore import pyqtSignal, Qt
+from PyQt5 import QtGui
+from PyQt5.QtCore import pyqtSignal, Qt
 
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
 
