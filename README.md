@@ -1,17 +1,26 @@
 # segyviewer [![Build Status](https://travis-ci.org/equinor/segyviewer.svg?branch=master)](https://travis-ci.org/equinor/segyviewer)
 
 conda create --name test_segyviewer --clone base_clone_0
+
 activate test_segyviewer
+
 conda update --all
+
 pip install segyio PyQt5 pyqtwebengine matplotlib
 
 
 git clone https://github.com/BehrangK/segyviewer
+
 cd segyviewer
+
 python setup.py build
+
 python setup.py install
+
 cd applications
+
 python segyviewer "D:/test.sgy"
+
 python segyviewer -i 1 -x 1 ..\tests\testdata\small.sgy
 
 
